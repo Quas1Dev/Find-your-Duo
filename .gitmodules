@@ -1,0 +1,9 @@
+[submodule "web"]
+	path = web
+	url = https://github.com/Quas1Dev/Find-your-Duo-Web-App.git
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/Quas1Dev/Find-your-Duo-Mobile-App.git
+[submodule "server"]
+	path = server
+	url = https://github.com/Quas1Dev/Find-your-Duo-Server.git
