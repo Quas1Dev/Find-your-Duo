@@ -15,3 +15,4 @@ In this web app, which is named **Find your Duo** users may find other people to
 * [Expo](https://expo.dev/)
 * [Figma](https://www.figma.com/)
 * [Radix UI](https://www.radix-ui.com/)
+
