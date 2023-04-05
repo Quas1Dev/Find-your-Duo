@@ -16,3 +16,16 @@ This project is named **Find your Duo**. This is a complete platform so users ma
 * [Figma](https://www.figma.com/)
 * [Radix UI](https://www.radix-ui.com/)
 
+## Getting Started
+
+## Prerequisites
+
+- You'll need to have [Node.js](https://nodejs.org/en/) intalled.
+- You'll need to have [PostgreSQL](https://postgresql.org/) installed.
+- You'll need to have [Git](https://git-scm.com/) installed.
+
+Note: We'll be creating a PostgreSQL Database using the Postgres users. Therefore, you must take note of the password you set for this user.
+
+## Cloning
+
+1 - Open 
