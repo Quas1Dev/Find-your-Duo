@@ -6,7 +6,7 @@
 This project is a result of the one-week event Next Level Week (NLW) eSports by [Rocketseat](https://www.rocketseat.com.br/) in which a web application, a mobile app and an API has been built from scratch. 
 
 ## Description
-This projec is named **Find your Duo**. This is a complete platform so users may find other people to play with by publishing announcements.The announcements contain the date and time for the gaming, and contact information so that interested parties can communicate with the person who made the announcement.
+This project is named **Find your Duo**. This is a complete platform so users may find other people to play with by publishing announcements.The announcements contain the date and time for the gaming, and contact information so that interested parties can communicate with the person who made the announcement.
 
 ## Stack and tools
 * [Node.js](https://nodejs.org/en/)
