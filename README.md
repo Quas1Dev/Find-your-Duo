@@ -25,7 +25,3 @@ This project is named **Find your Duo**. This is a complete platform so users ma
 - You'll need to have [Git](https://git-scm.com/) installed.
 
 Note: We'll be creating a PostgreSQL Database using the Postgres users. Therefore, you must take note of the password you set for this user.
-
-## Cloning
-
-1 - Open 
