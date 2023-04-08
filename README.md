@@ -18,14 +18,47 @@ This project is named **Find your Duo**. This is a complete platform so users ma
 
 ## Getting Started
 
+Here are the steps required to get you prepared to run the web app, mobile app and server on Windows 10/11. 
+
 ## Prerequisites
 
-- You'll need to have [Node.js](https://nodejs.org/en/) intalled.
-- You'll need to have [PostgreSQL](https://postgresql.org/) installed.
-- You'll need to have [Git](https://git-scm.com/) installed.
+- You'll need to have [Node.js](https://nodejs.org/en/) intalled on your machine.
+- You'll need to have [PostgreSQL](https://postgresql.org/) installed on your machine.
+- You'll need to have [Git](https://git-scm.com/) installed installed on your machine.
+- You'll need to have [Expo GO](https://expo.dev/client) installed in some smartphone (required to run the mobile version).
 
 Note: We'll be creating a PostgreSQL Database using the Postgres users. Therefore, you must take note of the password you set for this user.
+Note: Also you will need to find the path to a folder called `data`, which is usually located at C:\Program Files\PostgreSQL\15\data.
 
-## Cloning
+## Setting up the project
 
-1 - Open 
+To quickly set up the project and try out our web app, you can download our [setup.bat](https://www.dropbox.com/s/bkvslejpzvp2u2c/setup.bat?dl=0) file. This Batch script will clone the project into a findyourduo folder in your Documents directory, install all dependencies for the web app, server, and mobile app, prepare a PostgreSQL database with the necessary tables, populate them with some data, and initiate the web app and server. 
+
+To use the setup.bat file, simply double click on it and follow the prompts. You'll be asked to enter your PostgreSQL superuser password and the location of your PostgreSQL data directory (default is C:\Program Files\PostgreSQL\15\data). The script will handle the rest. 
+
+We'll provide instructions to run the mobile app in just a moment.
+
+## Getting to use the web app
+
+With both the web app and server running, open any browser you want and navigate to localhost:3000. At this point you should be seing the home page for the application.
+
+## Closing everything and getting back
+Once you are done, you can just close all windows opened by the script. All runing process that we started during the setup will be terminated. If you want to run them again, just execute our setup.bat file again.
+
+## Running the mobile app
+Navigate to the project's folder using CMD, and then run the follwoing:
+
+To start the server:
+```
+cd server
+npm run dev
+```
+
+To start the mobile application:
+```
+cd ../mobile
+npm start
+```
+Note that a QR code will appear on screen for you.
+
+In your smartphone, open up ExpoGO, and click on Scan QR code. Aim the camera at the QR code, and it should start the connection. Now you can enjoy your React Native app.
