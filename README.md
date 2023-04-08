@@ -32,7 +32,7 @@ Note: Also you will need to find the path to a folder called `data`, which is us
 
 ## Setting up the project
 
-To quickly set up the project and try out our web app, you can download our [setup.bat](https://www.dropbox.com/s/b8hev74kxpzz75u/setup.bat?dl=0) file. This Batch script will clone the project into a findyourduo folder in your Documents directory, install all dependencies for the web app, server, and mobile app, prepare a PostgreSQL database with the necessary tables, populate them with some data, and initiate the web app and server. 
+To quickly set up the project and try out our web app, you can download our [setup.bat](https://www.dropbox.com/s/bkvslejpzvp2u2c/setup.bat?dl=0) file. This Batch script will clone the project into a findyourduo folder in your Documents directory, install all dependencies for the web app, server, and mobile app, prepare a PostgreSQL database with the necessary tables, populate them with some data, and initiate the web app and server. 
 
 To use the setup.bat file, simply double click on it and follow the prompts. You'll be asked to enter your PostgreSQL superuser password and the location of your PostgreSQL data directory (default is C:\Program Files\PostgreSQL\15\data). The script will handle the rest. 
 
@@ -43,21 +43,7 @@ We'll provide instructions to run the mobile app in just a moment.
 With both the web app and server running, open any browser you want and navigate to localhost:3000. At this point you should be seing the home page for the application.
 
 ## Closing everything and getting back
-Once you are done, you can just close all windows opened by the script. All runing process that we started during the setup will be terminated.
-
-If you want execute the web app again again, just navigate to the projects folder and execute these commands:
-
-To run the server:
-```
-cd server
-npm run dev
-```
-
-To run the web app:
-```
-cd ../web
-npm run dev
-```
+Once you are done, you can just close all windows opened by the script. All runing process that we started during the setup will be terminated. If you want to run them again, just execute our setup.bat file again.
 
 ## Running the mobile app
 Navigate to the project's folder using CMD, and then run the follwoing:
