@@ -43,7 +43,7 @@ We'll provide instructions to run the mobile app in just a moment.
 With both the web app and server running, open any browser you want and navigate to localhost:3000. At this point you should be seing the home page for the application.
 
 ## Closing everything and getting back
-Once you are done, you can just close all windows opened by the script. All runing process that we started in the process will be terminated.
+Once you are done, you can just close all windows opened by the script. All runing process that we started during the setup will be terminated.
 
 If you want execute the web app again again, just navigate to the projects folder and execute these commands:
 
