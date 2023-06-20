@@ -27,7 +27,7 @@ Here are the steps required to get you prepared to run the web app, mobile app a
 - You'll need to have [Git](https://git-scm.com/) installed installed on your machine.
 - You'll need to have [Expo GO](https://expo.dev/client) installed in some smartphone (required to run the mobile version).
 
-**Note**: We'll be creating a PostgreSQL Database using the Postgres users. Therefore, you must take note of the password you set for this user.
+**Note**: We'll be creating a PostgreSQL Database using the Postgres user, then you must take note of the password you set for this user.
 
 **Note**: Also you will need to find the path to a folder called `data`, which is usually located at C:\Program Files\PostgreSQL\15\data.
 
